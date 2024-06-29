@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title> Desafio Introdução ao HTML </title> 
+    </head>
+    <body>
+        <h1><strong>Conteúdo da aula de introdução ao HTML</strong></h1>
+        <hr />
+        <h2><mark>Nesta pagina iramos ver um pouco sobre o conteúdo apresentado na aula "Introdução ao HTML na  prática".</mark></h2>
+        <ul>
+            <li><a href="#">Ferramentas Utilizadas</a></li>
+            <li><a href="#">Inspetor de Elementos</a></li>
+            <li><a href="#">Estrutura Básica do HTML</a></li>
+            <li><a href="#">Falando sobre Tags</a></li>
+            <li><a href="#">Atributos das Tags</a></li>
+            <li><a href="#">Texto</a></li>
+            <li><a href="#">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#">Links</a></li>
+        </ul>
+        <h2><a>Ferramentas Utilizadas</a></h2>
+        <p>Nessa aula o tutor ensina a como instalar o programa Visual Code, entrando no site<a href="https://code.visualstudio.com"target="blank">Visual studio Code</a>, e também nos auxilia a instalar o plugin <mark>Live Server</mark>.</p>
+        
+       
+        <h2><a>Inspetor de Elementos</a></h2>
+        <p>Já nesta, o tutor nos apresenta a "Ferramenta do Desenvolvedor" que consiste em uma ferramenta de o google chorme nos disponibiliza temos vários recursos para estudar e saber como aquela pagina web foi criada.</p>
+        <p>Ele também mostra algumas formatações da pagina como Qual fonte foi usada, a cor escolhida para o texto e como podemos redefini-las (é importante destacar que qualquer alteração que você faça em sua tela n será permanente e voltara a sua formatação original ao recarregar a tela).</p>
+        
+        
+        <h2><a>Estrutura Básica do HTML</a></h2>
+        <p>Aqui aprendemos um pouco da estrutura básica de um arquivo HTML.</p>
+        <p>Basicamente oque temos que fazer é criar uma pasta dedicada para  o projeto e abrir um arquivo e selecionar a pasta criada e, feito isso criamos um novo arquivo e o nomeamos de "index.html", o index é o padrão que sinaliza o inicio de uma pasta, a pagina principal.</p>
+        <p>O index consiste em três partes, o < html> < /html>, o < head> < /head>(cabeça) e o < body> < /body>(corpo), tudo que estiver entre < html> e < /html> será uma pagina html, tudo que estiver entre < body> e < /body> são coisas que iram aparecer para o usuário, tudo que esta entre < head> e < /head> são coisas que vão carregar antes de aparecer para o usuário, na parte do head temos por exemplo uma tag chamada < title> que é o que cria o titulo da pagina. </p>
+        <p>Para sabermos se o arquivo esta salvo basta ver se ah uma bolinha ao lado no "index.html", caso estiver  significa que não esta salvo, para salvar basta pressionar Ctrl+s, já para visualizarmos como esta ficando propriamente o projeto que estamos criando clicamos no Explorador, depois com o botão direito no index.html, em seguida no Open With Live Server, com isso abrira automaticamente o navegador com a nossa pagina(toda vez que alterarmos alguma coisa no arquivo no Visual Code ira modificar automaticamente  no pagina).</p>
+       
+       
+        <h2><a>Falando sobre Tags</a></h2>
+        <p> Ja vimos algumas tags como: < html>, < head>, < body> e < title>, oque da pra notar ao escrever as tags é que automaticamente o programa preenche ela mesma porém com uma barra na frente, isso sinaliza que é o final daquela ação.
+        <p><strong>Mais algumas tags apresentadas:</strong></p>
+        <p><strong>< i>:</strong> Deixa as palavras em Itálico</p>
+        <p><strong>< strong>:</strong> Deixa as palavras em Negrito</p>
+        <p><strong>< u>:</strong>Adiciona underline em cima da frase</p>
+        <p><strong>< mark>:</strong>Funciona como um marca texto</p>
+        <p><strong>< hr>:</strong>Cria uma linha de divisão</p>
+        <p><strong>< blockquote>:</strong>É usado quando a imformação vem de uma fonte externa(jornal, livro, documento, etc)</p>
+        <p><strong>< font>:</strong>É usado para configurar o tipo, cor e tamanho das letras</p>
+        <p><strong>< abbr>:</strong>Cria uma abreviação e opcionalmente fornece uma descrição completa para ela.</p>
+    
+        <p> Também é importante destacar que existem tags que precisam de um fechamente (repetição + /), porém também existem algumas que não, ja que elas ja possuem o fechamento, mas precisam de algum <mark>atributo</mark> para serem executadas, por exemplo:</p>
+        <p><strong>< imput type=text />:</imput></strong> Cria um campo que permite o usuário escrever.</p>
+        <p><strong>< img />: </strong> Cria um campo para colocar alguma imagem.</p>
+        
+        <p><mark>É possível fazer junção entre as tags!</mark></p>
+       
+       
+        <h2><a>Atributos das Tags</a></h2>
+        <p>Atributos nadas mais são doque propriedades que  uma tag pode ter, existem atributos globais, genéricos que todas as tags vão ter e também existem alguns que são específicos de cada tag.</p>
+        <p>Alguns exemplos de atributos genéricos são o id (que serve pra identificar qual elemento você quer mexer), style (que serve para colocar uma comando css direto para formatar o texto, mudar de cor ou fonte), class(também voltada pro css que padroniza uma palavra para que sempre que for escrita ela seja formatada do modo que você definiu).</p>
+        <p>Agora os atributos que são específicos de cada tag temos por exemplo: Dentro do campo < Imput type=> podemos adicionar "text" que criara um campo de texto, "number" que fara com que o campo de texto aceite somente números, ou também "color" que mudara o campo para um seletor de cores, outra tag que precisa de um atributo é a < img/>, para que consiga colocar uma imagem é necessário adicionar scr" arquivo ou link da imagem", podemos complementar com width="numero" para mudar o tamanho da imagem.</p>
+       
+        <h2><a>Texto</a></h2>
+       <P>Aqui basicamente vemos algumas tags sobre programas voltados para texto.
+        Temos os "h" que basicamente são 6 níveis de texto, sendo h1 o titilo, h2 o sub titulo, h3 o sub sub titulo e assim vai até o 6º, o < p> simboliza um paragrafo , oque faz o corpo do texto, logo em cada paragrafo novo vc adiciona um < p>, se quiser adicionar um sub-escrito algum caractere você usa < sup>+caractere.</P>
+       
+        <h2><a>Listas Ordenadas e Não Ordenadas</a></h2>
+       <p>Agora vemos sobre os dois tipos de lista e como usa-las, a <mark>ordenada</mark> é uma lista numerada, ex: 1, 2, 3,... se encaixa bem em textos que queremos listar a ordem ou até a classificação de algo, a tag para utiliza-la é < ol> e adicionara < li> (item da lista) antes de cada item que você quer listar.</p>
+       <p>Ex:
+        <p>< ol></p> 
+          <p>< li>item 1< /li></p>
+          <p>< li>item 2< /li></p>
+          <p>< li>item 3< /li></p>
+          <p>< /ol></p>
+       </p>
+    
+        Já a lista <mark>não ordenada</mark> é basicamente a mesma coisa só que ao invés de números ela usa marcadores, bolinhas "•", e sua tag para é < ul> e adicionara < li>.
+        <p>Ex:
+          <p>< ul></p> 
+          <p>< li>item 1< /li></p>
+          <p>< li>item 2< /li></p>
+          <p>< li>item 3< /li></p>
+          <p>< /ul></p>
+        </p>
+       
+        <h2><a>Liks</a></h2>
+        <p>Um link é uma área de um site que te direciona para algum lugar, é oque te faz navegar pela internet, os link é oque linca uma pagina a outra, no html temos uma tag justamente para isso.</p>
+        <p>A tag < a href="links ou palavra desejada"> +Titilo do link </a> serve como ancora, usamos ela quando queremos lincar uma palavra a outra no mesmo texto ou até mesmo adicionar links de outros sites.</p>
+        <p>Ao usar a tag <a href""> você abre o link na mesma aba, porém tem como modificar isso adicionando outra tag chamada target="", para que o link abra em outra aba basta adicionar "blank" e "self" para abrir o link na mesma aba.</p>
+        <p>Temos um exemplo disso no inicio desta pagina, onde mostra os títulos que seram mostrados e ao clicar em qualquer  um deles o usuários é direcionado para o texto cujo o titulo esta lincado, para utilizar essa ferramenta.</p>
+        <p>Caso queira um link que abra outra tela porém no mesmo site basta criar outro arquivo com algum nome e adicionar uma ancora com o mesmo nome que seu novo arquivo.</p>
+        <p>Outro atributo que também nos é apresentado é o title="", que se adiciona dentro da tag < a href=""> que faz aparecer um balãozinho ao lado do mouse com um texto desejado quando passamos o mouse em cima do link.</p>
+        <hr>
+
+        <h4><a href="considerações.html"title="Considerações finais do desafio">Considerações</a></h4>
+    </body>
+</html>
